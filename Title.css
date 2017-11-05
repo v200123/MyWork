@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Top{
+     width: 100%;
+     height: 60px;
+     background-color: #1f1f1f;
+     text-align: center;
+ }
+.Navigation{
+    width: 75%;
+    height: 60px;
+    background-color: #1f1f1f;
+    margin-left:auto;
+    margin-right:auto;
+}
+.M1,.M2,.M3,.M4{
+     border-style:none none none none ;
+     font-size: 20px;
+     display: inline;
+    }
+
+.Left-Navigate{
+    margin-right:auto ;
+    background-color: #69943e;
+    width: 10%;
+    float:left ;
+    margin-right: 20px;
+    height: 350px;
+}
+
+.left-navigate{
+    text-align: left;
+
+}
+.left-navigate li a{
+    font-family: 等线;
+    width: 100%;
+    border-style:hidden hidden hidden hidden ;
+    display: block;
+    font-size: 17px;
+    font-weight:bold;
+    color:#a1a1a1;
+}
+.left-navigate li a:hover{
+    -webkit-transition: color 1s;
+    transition: background-color .5s,color 1s;
+    color: green;
+}
+
+ul{
+    line-height: 60px;
+    height: 60px;
+    list-style-type: none;
+}
+a{
+    color: #a1a1a1;
+}
+a:link ,a:visited{
+    font-family:微软幼圆;
+    list-style-type: none;
+    text-decoration:none;
+    border-right:solid ;
+    background-color: #1f1f1f;
+}
+
+a:hover{
+    -webkit-transition: color 1s;
+    transition: background-color .5s,color 1s;
+    color: black;
+    background-color: orangered;
+}
+
+
+.content{
+    width: 75%;
+    height: 1500px;
+    margin: 20px auto;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+.PlaceOfInput{
+    width: 59.7%;
+    margin-left:auto;
+    margin-right:auto;
+
+    float: left;
+}
+.top-navigate{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 42px;
+    border-bottom:solid;
+    border-color: #575757;
+    float: left;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: navy;
+}
+.icon01{
+    width: 42px;
+    height: 42px;
+    background: url(华东前.ico) no-repeat;
+
+
+}
+
+.icon01:hover{
+    -webkit-animation: icon01 100ms steps(1) 1;
+    animation:icon01 100ms steps(1) 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode:forwards;
+}
+@keyframes icon01{
+    0%{
+        background-position: 0,0;
+    }
+    50%{
+        background-position: -42px,0;
+    }
+    100%
+    {
+        background-position: -42px,0;
+    }
+    
+
+}
+.Right-Content{
+    margin-top: -74px;
+    width: 20%;
+    height: 70px;
+    background-color: purple;
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.sign-in{
+    float: right;
+    width: 70%;
+    height: 100%;
+    font-family: 华文楷体;
+    font-size: 50px;
+    background-color:#2e2e2e ;
+    text-align: left;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 70px;
+    border-radius:0 10px 10px 0;
+}
+
+.sign-in:hover{
+    transition:all 1s ;
+    -webkit-transition: all 1s;
+    color: royalblue;
+}
+.date{
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 华文楷体;
+    font-size: 25px;
+
+}
+
+/*.top-navigate.AllActive:hover{*/
+
+/*}*/
+
+
